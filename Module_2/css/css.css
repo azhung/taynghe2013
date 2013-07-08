@@ -1,0 +1,81 @@
+/* CSS Document */
+*{ margin:0; padding:0;}
+body{ font-family:Arial, Helvetica, sans-serif; font-size:12px;
+	background:-moz-linear-gradient(top, #817152, #FFF);
+	background:-webkit-linear-gradient(top, #817152, #FFF);
+}
+
+#wrap-all{ width:100%;}
+
+#wrap{ width:960px; margin:0 auto; max-width:1000px; min-width:900px;
+	box-shadow:0 15px 15px #666666;
+}
+#header{ width:960px; height:280px;}
+	#slide{ width:730px; height:280px; float:left;}
+		#slide header{ width:340px; height:120px; float:left; background:#db6516; position:absolute; z-index:20;
+			border-radius:10px; margin:-10px 0 0 10px; opacity:.7;
+		}
+		#logo{ width:302px; height:48px; background:url(img/logo.png) no-repeat; margin:0 auto; margin-top:20px;}
+		#slide header h1{ font-size:36px; color:#FFF; text-align:center;}
+	
+		#slider{ width:730px; height:280px; float:left; position:relative; z-index:10;}
+		.ft-title{ width:730px; height:50px; line-height:50px; text-align:center;}
+		.ft-next, .ft-prev{ display:none;}
+		#ft-buttons-slider{ margin-top:-270px; position:relative; z-index:20; float:right; background:#000; opacity:.6; width:20px !important; margin-right:10px; }
+		.ft-button-slider{ display:block; color:#FFF; font-weight:bold; text-decoration:none; text-align:center;}
+		.ft-button-slider-active{ color:#F00;}
+	
+	nav{ width:230px; height:280px; float:right; background:#db6516;}
+		nav ul{ list-style:none;}
+		nav ul li{ width:230px; height:40px; border-bottom:1px solid #95450f; text-align:center; line-height:40px;}
+		nav ul li a{ text-decoration:none; color:#FFF; font-weight:bold; display:block;}
+		nav ul li:hover{ background:#95450f;}
+		nav ul li:last-child{ border-bottom:none; height:70px;}
+
+#heading{ width:960px; height:245px;}
+	#top-hd{ width:960px; height:50px; background:url(img/top-hd.png) no-repeat; margin-top:-50px; position:relative; z-index:100;}
+	#main-hd{ width:960px; height:195px; background:#e1c78c;}
+		#hd1{ width:190px; height:162px; background:url(img/hd1.png) no-repeat; padding:60px 15px 0 15px; margin:-35px 10px 0 10px; position:relative; z-index:101; float:left;}
+		#hd2{ width:190px; height:160px; background:url(img/hd2.png) no-repeat; padding:25px 15px 0 15px; margin:0px 10px 0 10px; float:left;}
+		#hd3{ width:190px; height:158px; background:url(img/hd3.png) no-repeat; padding:25px 15px 0 15px; margin:0px 10px 0 10px;float:left;}
+		#hd4{ width:190px; height:162px; background:url(img/hd4.png) no-repeat; padding:60px 15px 0 15px; margin:-35px 10px 0 10px; position:relative; z-index:101; float:left;}
+		#hd1:hover, #hd2:hover, #hd3:hover, #hd4:hover{ box-shadow:0 15px 15px #666666; transition:1s;}
+
+#content{ width:960px; overflow:hidden; margin-top:10px; padding-bottom:300px;
+	background:-moz-linear-gradient(top, #e8e6de, #FFF);	
+	background:-webkit-linear-gradient(top, #e8e6de, #FFF);	
+}
+	#left{ width:340px; float:left; margin:10px 0 0 10px;
+		background:-moz-linear-gradient(bottom, #d2cdc2, #FFF);	
+		background:-webkit-linear-gradient(bottom, #d2cdc2, #FFF);	
+	}
+		#video{ width:315px; height:190px; margin:10px;}
+	
+	#right{ width:500px; float:right; margin:40px 60px 0 0;}
+		#title { margin-bottom:20px;}
+		#title h1{ color:#db6516; margin-bottom:10px;}
+		
+		.noidung{ margin:10px 0 10px 0; float:left;}
+			.anh{ width:140px; height:90px; float:left; margin-right:10px;
+				border-radius: 15px;
+				box-shadow:2px 2px 2px #666666;
+				-webkit-box-shadow:2px 2px 2px #666666;
+			}
+			.anh:hover{ 
+				transition:2s;				
+				-moz-transform:scale(1.2,1.2);
+				-webkit-transform:scale(1.2,1.2);
+				-moz-transform-origin:right;	
+				-webkit-transform-origin:right;	
+			}
+			
+			.text h2{color:#eda011;}
+			.date{color:#e1c78c;}
+	
+	
+#city{ width:100%; height:315px; background:url(img/city.png) no-repeat; background-position:center; position:fixed; margin-top:-315px; bottom:0; left:0; z-index:1000;}	
+	#footer{ width:960px; margin:0 auto; margin-top:250px;}
+		.search{ float:left;}
+			.tim{ width:300px; height:35px; border-radius: 15px 0 0 15px; border:none; background:#e8d3a5; padding-left:15px; float:left; margin-left:20px;}
+			.gui{ width:75px; height:35px; background:#db6516; border:none; border-radius:0 15px 15px 0; color:#FFF;}
+		#copyright{ float:right; color:#FFF; margin-right:15px;}
