@@ -1,0 +1,63 @@
+/* CSS Document */
+*{ margin:0; padding:0;}
+body{font-family:Arial, Helvetica, sans-serif;font-size:12px;}
+p{ text-align:justify;}
+#wrap{ width:100%; background:#e2e2e2;}
+
+#header{ width:100%; height:180px; background:url(images/Morning-Module-A_02.jpg) repeat-x;}
+
+#banner{ width:960px; height:180px; margin:0 auto;}
+	#logo{ height:130px; line-height:130px; color:#FFF; font-size:56px; padding-left:20px;}
+	#logo a{ text-decoration:none; color:#FFF;}
+	
+	#menu{ width:960px; height:50px;}
+	#menu a{ text-decoration:none; color:#000;}
+	#menu ul{position:relative; list-style:none; float:left;}
+	#menu ul li{ width:90px; height:50px; background:#FFF; line-height:50px; text-align:center; float:left; margin-right:10px;}
+	#menu ul li ul{ display:none; position:absolute;}
+	#menu ul li:hover ul{ display:block; width:90px;}
+	#menu ul li ul li{ background:#000; border-bottom:1px solid #FFF;}
+	#menu ul li ul li a{ color:#FFF;}
+	#menu h5{ float:right; margin-right:20px; line-height:50px; color:#FFF;}
+	
+	
+#content{ width:960px; margin:0 auto; overflow:hidden; background:#FFF; margin-top:40px;}
+	#left{ width:630px; float:left; margin:40px 0 0 10px;}
+		#thongbao{ list-style:none; }
+		#thongbao img{ float:right; padding:5px; border:none;}
+		#thongbao li:first-child{ width:598px; height:38px; border:1px solid #bfe6b9; margin-bottom:20px; background:url(images/Morning-Module-A_09.jpg) no-repeat top 12px left 10px #e4ffe0; line-height:38px; text-transform:uppercase; font-size:13px; padding-left:30px;}
+		#thongbao li:last-child{ width:598px; height:38px; border:1px solid #d6a6b4; margin-bottom:20px; background:url(images/Morning-Module-A_16.jpg) no-repeat top 12px left 10px #fee4e7; line-height:38px; text-transform:uppercase; font-size:13px; padding-left:30px;}
+		
+		
+		h1{ border-bottom:2px solid #999; padding-bottom:5px;}
+		p{ line-height:20px; margin-top:20px;}
+	
+		.lbl{ color:#CCC; font-weight:bold; margin-bottom:15px; margin-top:15px;}
+		.sm{ width:100px; padding-left:10px; height:28px; border:1px solid #666; background:#f8f3f7;}
+		.lg{ width:290px; padding-left:10px; height:28px; border:1px solid #666; background:#f8f3f7;}
+		.select{ width:150px; height:25px; line-height:25px;}
+		.submit{ width:100px; height:40px; background:#000; color:#FFF; border:none; margin-top:20px;}
+		
+		#table{ border-top:1px solid #999; border-left:1px solid #999; float:left; margin-top:10px;}
+		.row{ float:left; border-bottom:1px solid #999; line-height:38px;}
+		.row:nth-child(even){ background:#deebfe;}
+		.col1{ width:135px; height:38px; padding-left:5px; float:left; border-right:1px solid #999;}
+		.col2{ width:215px; height:38px; padding-left:5px; float:left; border-right:1px solid #999;}
+		.col3{ width:155px; height:38px; padding-left:5px; float:left; border-right:1px solid #999;}
+		.col4{ width:100px; height:38px; padding-left:5px; float:left; border-right:1px solid #999;}
+	
+		.baiviet{margin:20px 0 0 40px;}
+		.baiviet img{ float:left; margin-right:20px;}
+		
+		#hd2{ list-style:none;}
+		#hd2 li{ background:url(images/Morning-Module-A_49.jpg) no-repeat top 10px left 10px; padding:5px 0 5px 25px;}
+		
+	#right{ width:230px; float:right; margin:40px 10px 0 0;}
+		#right h1{ width:218px; height:38px; border:1px solid #c6d7e7; background:#deebfe; padding-left:10px;}
+		.linksp{ border-bottom:1px solid #999; margin:15px 0 15px 0; padding-bottom:15px;}
+		.linksp img{ float:left; margin-right:10px;}
+		.linksp:last-child{ border:none;}
+	
+#footer{ width:100%; background:url(images/Morning-Module-A_52.jpg) repeat-x; clear:both; height:65px; line-height:65px;}
+	#footer p{color:#FFF; margin-left:20px;}
+
